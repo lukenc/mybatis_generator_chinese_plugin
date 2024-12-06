@@ -1,0 +1,46 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/src/main/resources/mappers/SchMigrateToV2Mapper.xml
+/src/main/resources/mappers/StuHomeworkMapper.xml
+/src/main/resources/mappers/StuHomeworkRelationMapper.xml
+/src/main/resources/mappers/SysLikeLogMapper.xml
+/src/main/resources/mappers/SysLikeNumberMapper.xml
+/src/main/resources/mappers/SysNoticeMapper.xml
+/src/main/resources/mappers/TmClassTermCourseRelationMapper.xml
+/src/main/resources/mappers/TmClassTermMapper.xml
+/src/main/resources/mappers/TmCourseForClassMapper.xml
+/src/main/resources/mappers/TmCourseMapper.xml
+/src/main/resources/mappers/TmCourseResourceMapper.xml
+/src/main/resources/mappers/TmCourseStudentRelationMapper.xml
+/src/main/resources/mappers/TmSchResourceInstanceExistMapper.xml
